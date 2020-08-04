@@ -215,8 +215,8 @@ body {
 	width: 100%;
 	border: none;
 	border-radius: 25px;
-	margin-top: 20px;
-	padding: 15px;
+	margin-top: 27px;
+	height: 30px;
 	text-align: center;
 	font-family: 'Montserrat', sans-serif;
 	background-image: var(--gradient);

@@ -6,7 +6,7 @@ let dateDayName = $(".date-dayname");
 let dateDay = $(".date-day");
 let loc = $(".location");
 let temp = $(".weather-temp");
-let precipitationValue = $("precipitation-value");
+let feelsLikeValue = $(".feels-like-value");
 let humidityValue = $(".humidity-value");
 let windValue = $(".wind-value");
 let dayTwoName = $(".day-two-name");
@@ -49,7 +49,7 @@ $(document).ready(function () {
 
                     temp.html((Math.ceil(current.main.temp) + "°C"));
                     loc.html(city + ", " + country);
-                    //precipitationValue.html(current.precipitation);
+                    feelsLikeValue.html(Math.ceil(current.main.feels_like) + "°C");
                     humidityValue.html(current.main.humidity + "%");
                     windValue.html((Math.round(current.wind.speed)).toFixed(1) + " km/h");
 
@@ -89,7 +89,7 @@ $('.location-button').bind('click', function () {
 
                     temp.html((Math.ceil(current.main.temp) + "°C"));
                     loc.html(city + ", " + country);
-                    //precipitationValue.html(current.precipitation);
+                    feelsLikeValue.html(Math.ceil(current.main.feels_like) + "°C");
                     humidityValue.html(current.main.humidity + "%");
                     windValue.html((Math.round(current.wind.speed)).toFixed(1) + " km/h");
 
