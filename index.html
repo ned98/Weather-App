@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <title>Weather API</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="weather-side">
+
+            <div class="weather-gradient">
+            </div>
+
+            <div class="date-container">
+
+                <h2 class="date-dayname">Tuesday</h2>
+                <span class="date-day">15 Jan 2019</span>
+                <i class="location-icon" data-feather="map-pin"></i>
+                <span class="location">Sofia, BG</span>
+
+            </div>
+
+            <div class="weather-container">
+
+                <i class="weather-icon" data-feather="sun"></i>
+                <h1 class="weather-temp">300</h1>
+                <h3 class="weather-desc">Sunny</h3>
+
+            </div>
+        </div>
+
+        <div class="info-side">
+
+            <div class="today-info-container">
+
+                <div class="today-info">
+
+                    <div class="precipitation"></div>
+                    <span class="title pre">PRECIPITATION</span>
+                    <span class="precipitation-value">0%</span>
+
+                    <div class="humidity"></div>
+                    <span class="title">HUMIDITY</span>
+                    <span class="humidity-value">34%</span>
+
+                    <div class="wind"></div>
+                    <span class="title">WIND</span>
+                    <span class="wind-value">0 km/h</span>
+
+                </div>
+
+                <div class="week-container">
+                    <ul class="week-list">
+                        <li class="active">
+                            <i class="day-icon" data-feather="sun"></i>
+                            <span class="day-two-name">Tue</span>
+                            <span class="day-temp">29°C</span>
+                        </li>
+
+                        <li>
+                            <i class="day-icon" data-feather="cloud"></i>
+                            <span class="day-three-name">Wed</span>
+                            <span class="day-temp">21°C</span>
+                        </li>
+
+                        <li>
+                            <i class="day-icon" data-feather="cloud-snow"></i>
+                            <span class="day-four-name">Thu</span>
+                            <span class="day-temp">08°C</span>
+                        </li>
+
+                        <li>
+                            <i class="day-icon" data-feather="cloud-rain"></i>
+                            <span class="day-five-name">Fri</span>
+                            <span class="day-temp">19°C</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="location-container">
+                    <input class="input-value" type="text" placeholder="Enter City">
+                    <input class="location-button" type="submit" value="Change Location">
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
