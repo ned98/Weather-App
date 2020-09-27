@@ -1,4 +1,4 @@
-const key = '2987e576d8809d67e5a96a517ba5b0df';
+const key = 'your_key';
 // const proxy = 'https://cors-anywhere.herokuapp.com/';
 // var getIP = 'http://ip-api.com/json/';
 
